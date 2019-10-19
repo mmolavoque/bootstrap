@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+		 <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 500 px;
+  }
+  </style>
+
+  <style>
+  	.bg-dark{
+  		background-color: pink!important;
+
+  	}
+  </style>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	  <!-- Brand -->
+	  		<a class="navbar-brand" href="#">logo</a>
+
+	  <!-- Links -->
+	   <ul class="navbar-nav">
+	   	<li class="nav-item">
+	     	 <a class="nav-link" href="#">INICIO</a>
+	   		 </li>
+	   		 <li class="nav-item">
+	    	  <a class="nav-link" href="#">NOSOTROS</a>
+	    	</li>
+
+	    <!-- Dropdown -->
+	    <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+	        SERVICIOS
+	      </a>
+	      <div class="dropdown-menu">
+	        <a class="dropdown-item" href="#">DESARROLLO WEB</a>
+	        <a class="dropdown-item" href="#">DESARROLLO MOVIL</a>
+	        <a class="dropdown-item" href="#">CAPACITACIONES</a>
+	      </div>
+	    </li>
+	  </ul>
+	</nav>
+	<br>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+	  <!-- Indicators -->
+		  <ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+		  </ul>
+	  
+	  <!-- The slideshow -->
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="img/la.jpg" alt="Moto1" width="1100" height="500">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/chicago.jpg" alt="Moto2" width="1100" height="500">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/ny.jpg" alt="Moto3" width="1100" height="500">
+		    </div>
+		  </div>
+	  
+	  <!-- Left and right controls -->
+	  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+	    <span class="carousel-control-prev-icon"></span>
+	  </a>
+	  <a class="carousel-control-next" href="#demo" data-slide="next">
+	    <span class="carousel-control-next-icon"></span>
+	  </a>
+	</div>
+
+
+
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<h1>Servicio1</h1>
+			</div>
+			<div class="col-md-4">
+				<h1>servicio2</h1>
+			</div>
+
+			<div class="col-md-4">
+				<h1>servicio3</h1>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-4  text-justify" >
+				<div class="jumbotron text-center" style="margin-bottom:0">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi numquam possimus, voluptate itaque temporibus corrupti nemo nostrum maxime hic veritatis nobis, illo beatae excepturi, voluptatem libero error vero aut enim.</p>
+				</div>
+				<br>
+			</div>
+
+             <div class="col-md-4">
+             	<div class="jumbotron text-center" style="margin-bottom:0">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, suscipit numquam porro a architecto sit. Asperiores cupiditate, placeat debitis, soluta nostrum provident error eveniet, ut eum doloribus, optio animi in?</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="jumbotron text-center" style="margin-bottom:0">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, suscipit numquam porro a architecto sit. Asperiores cupiditate, placeat debitis, soluta nostrum provident error eveniet, ut eum doloribus, optio animi in?</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+		<div class="jumbotron text-center" style="margin-bottom:0">
+  				<p>Footer</p>
+		</div>
+
+
+
+
+
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>

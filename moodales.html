@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modales</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+  		<h2>MODAL</h2>
+  <!-- Button to Open the Modal -->
+ 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal </button>
+
+  <!-- The Modal -->
+  		<div class="modal fade" id="myModal">
+    	<div class="modal-dialog modal-xl">
+      	<div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">CREAR PRODUCTO</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+
+        	<form >
+
+			<div class="form-grup"> <br><br>
+				<label form="nombres"> Nombres</label>
+				<input type="text" id="nombres" class="form-control" placeholder=" Nombres"><br><br>
+			</div>
+
+			<div class="form-grup">
+				<label form="email">Email</label>
+				<input type="text" id="email" class="form-control " placeholder="Email" ><br><br>
+			</div>
+
+			<div class="form-grup">
+
+				<label form="cuidad">Ciudad</label><br>
+				<select name="cuidad" id="ciudad" class="form-control">
+					<option value="1"> Bogota</option>
+					<option value="2"> Cali</option>
+					<option value="3"> Medellin</option>
+					</select><
+
+				<div class="form-grup">
+				<button class="btn btn-success btn-block">GUARDAR</button>
+				
+			</div>
+
+		</div>
+
+			
+		</form>
+
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">CERRAR</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
